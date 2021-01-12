@@ -18,7 +18,7 @@ if (isset($_POST['username'])){
   $rows = mysqli_num_rows($result);
   if($rows==1){
       $_SESSION['username'] = $username;
-      header("Location: index.php");
+      header("Location: index1.php");
   }else{
     $message = "Le nom d'utilisateur ou le mot de passe est incorrect.";
   }
@@ -37,5 +37,5 @@ if (isset($_POST['username'])){
 </form>
 
 </body>
-<a class="btn1" href="index1.php"><img src="https://fontmeme.com/permalink/210101/5c4ca3b185e29a17d48dc18921cfb22c.png" alt="police-metal-gear-solid" border="0"></a></a>
+<a class="btn1" href="index.php"><img src="https://fontmeme.com/permalink/210101/5c4ca3b185e29a17d48dc18921cfb22c.png" alt="police-metal-gear-solid" border="0"></a></a>
 </html>

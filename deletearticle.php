@@ -46,7 +46,7 @@
                       <p class="alert">Etes vous sûr ?</p>
                       <div class="form-actions">
                           <button type="submit" class="btn">Oui</button>
-                          <a class="btn" href="index.php">Non</a>
+                          <a class="btn" href="index1.php">Non</a>
                         </div>
                     </form>
                 </div>

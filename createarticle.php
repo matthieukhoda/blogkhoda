@@ -53,6 +53,8 @@ if ($valid) {
 <head>
 <meta charset="utf-8">
 <link rel="stylesheet" href="style.css">
+<script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+  <script>tinymce.init({selector:'textarea'});</script>
 </head>
 
 <body>
@@ -106,7 +108,7 @@ if ($valid) {
 </div>
 <br>
 <div class="form-actions">
-<a class="btn1" href="index.php"><img src="https://fontmeme.com/permalink/210102/36fecadec7d03b95c1bfc27f86a5c2f0.png" alt="police-metal-gear-solid" border="0"></a></a>
+<a class="btn1" href="index1.php"><img src="https://fontmeme.com/permalink/210102/36fecadec7d03b95c1bfc27f86a5c2f0.png" alt="police-metal-gear-solid" border="0"></a></a>
 </div>
 </form>
 </div>

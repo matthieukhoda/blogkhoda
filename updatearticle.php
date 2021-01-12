@@ -50,10 +50,13 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+  <script>tinymce.init({selector:'textarea'});</script>
     
 </head>
  
 <body>
+
     <div class="table">
      
                 <div class="span">
@@ -77,11 +80,12 @@
                         <label class="control">Article:</label>
                         <div class="control">
                         <form action="">
-                            <input name="article" type="text"  value="<?php 
-                            echo ($article)?$article:'';?>">
+                        <textarea cols="400" rows="30"
+                            name="article" type="text"  value=""><?php 
+                            echo ($article)?$article:'';?>
                             <?php if (!empty($articleError)): ?>
                                 <span class="help-inline"><?php echo $articleError;?></span>
-                            <?php endif; ?>
+                            <?php endif; ?></textarea>
                             </form>
                         </div>
                       </div>
@@ -103,7 +107,7 @@
                           type="submit" class="button" ><img src="https://fontmeme.com/permalink/210102/71486071f8da971fb9f23c6b2503e2c4.png" alt="police-metal-gear-solid" border="0"></a></button>
                           </div>
                         <div class="control" >
-                          <a class="btnn" href="index.php" ><img src="https://fontmeme.com/permalink/210102/5de60418a8552c659b1df0cba3f9d1c9.png" alt="police-metal-gear-solid" border="0"></a></a>
+                          <a class="btnn" href="index1.php" ><img src="https://fontmeme.com/permalink/210102/5de60418a8552c659b1df0cba3f9d1c9.png" alt="police-metal-gear-solid" border="0"></a></a>
                         </div>
                     </form>
                 </div>

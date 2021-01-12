@@ -56,7 +56,7 @@ Database::disconnect();
 </div>
 </div> 
 <div class="form-actions">
-<a class="btn1" href="index1.php"><img src="https://fontmeme.com/permalink/210101/4937b1d7bc3d7c3e7eb4afd97f7470a0.png" alt="police-metal-gear-solid" border="0"></a></a>
+<a class="btn1" href="index.php"><img src="https://fontmeme.com/permalink/210101/4937b1d7bc3d7c3e7eb4afd97f7470a0.png" alt="police-metal-gear-solid" border="0"></a></a>
 </div>
 </body>
 
